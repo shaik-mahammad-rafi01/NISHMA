@@ -1,7 +1,7 @@
-import { fetchProducts } from './api';
-import { adminMenu } from './admin';
-import { customerMenu } from './customer';
-import { ask, close } from './utils';
+import { fetchProducts } from './API/api';
+import { adminMenu } from './admin/admin';
+import { customerMenu } from './customer/customer';
+import { ask, close } from './Utils/utils';
 
 const start = async () => {
   let products = await fetchProducts();

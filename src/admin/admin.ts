@@ -1,5 +1,5 @@
-import { Product } from './types';
-import { ask } from './utils';
+import { Product } from '../Types/types';
+import { ask } from '../Utils/utils';
 
 export const adminMenu = async (products: Product[]): Promise<Product[]> => {
   console.log('\nAdmin Menu:\n1. Add Product\n2. Remove Product\n3. Back');

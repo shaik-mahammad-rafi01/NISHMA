@@ -1,5 +1,5 @@
-import { Product, CartItem } from './types';
-import { ask } from './utils';
+import { Product, CartItem } from '../Types/types';
+import { ask } from '../Utils/utils';
 
 export const customerMenu = async (products: Product[]) => {
   const cart: CartItem[] = [];
