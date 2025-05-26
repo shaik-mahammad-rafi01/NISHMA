@@ -21,7 +21,7 @@ const start = async () => {
     else if (choice === '3') {
       console.log('Goodbye!');
       close();
-      process.exit();
+      // process.exit();
     }
      else {
       console.log('Invalid option.');
