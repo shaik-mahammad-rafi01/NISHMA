@@ -10,4 +10,3 @@ export interface Product {
     quantity: number;
   }
   
-  // export type Role = 'Admin' | 'Customer';
