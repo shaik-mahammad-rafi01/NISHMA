@@ -3,6 +3,12 @@
 **NAISHMA** is a Command-Line Interface (CLI) application that simulates a basic e-commerce experience for both **Admins** and **Customers**. It is written in TypeScript and runs in a Node.js environment using built-in modules like `readline` and `fetch`.
 
 ---
+### Table 
+
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+* [Getting Started](#getting-started)
+* [Author](#author)
 
 ##  Features
 
@@ -46,3 +52,7 @@ npm start
 ```bash 
 npx ts-node src/index.ts
 ```
+
+### Author
+* Shaik Mahammad Rafi
+mailto:rafi.shaik@everest.engineering
