@@ -11,7 +11,9 @@ export const adminMenu = async (products: Product[]): Promise<Product[]> => {
       const price:number = parseFloat(await ask('Price: '));
       const category:string = await ask('Category: ');
       const rating:number = parseFloat(await ask('Rating (0-5): '));
-      const id:number = products.length + 1;
+      const lastItem=products[products.length-1];
+
+      const id:number =lastItem.id+1;
       products.push({ id, title, price, category, rating });
       console.log('Product added!');
       return adminMenu(products);
